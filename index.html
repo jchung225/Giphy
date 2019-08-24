@@ -12,17 +12,32 @@
 </head>
 
 <body>
-    <div id="buttons">
-        <button data-person="mac miller"> Swimming </button>
-        <button data-person="Robin Williams"> You're only given a little spark of madness. You mustn't lose it.</button>
-        <button data-person="Cristiano Ronaldo"> Goal!!!! </buton>
-
-    </div>
-    
-<div id="gifs-appear-here"></div>
-
-
-
+        <div class="container">
+                <div class="jumbotron text-center">
+                    <h1>GIFS gifs GIFS</h1>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div id="sport-buttons">
+        
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <form id="form">
+                            <label for="sport-input">Add a sport</label><br>
+                            <input type="text" id="sport-input">
+                            <input id="add-sport" type="submit" value="Submit">
+                        </form>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div id="Sports">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 </body>
 
 <script src="assets/javascript/giphy.js"></script>
